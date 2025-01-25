@@ -203,7 +203,6 @@ function HomePage() {
                   <Typography
                     sx={{
                       textAlign: "center",
-
                       margin: "0 20px"
                     }}>
                     {page}
