@@ -12,8 +12,10 @@
 -Veriler duruma göre .json dosyasından veya API üzerinden çekilecek
 
 -Proje ortam dosyası oluşturma kodları
+
 npm create vite@latest my-vite-project --template react
 cd my-vite-project
 ---
+
 npm install @mui/material @emotion/react @emotion/styled
 npm install react-bootstrap bootstrap
