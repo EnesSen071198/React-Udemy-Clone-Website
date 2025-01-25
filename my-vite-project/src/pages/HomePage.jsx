@@ -1,7 +1,8 @@
 import * as React from "react";
-import "../App"; // CSS dosyasını dahil edin.
-import { styled, alpha } from "@mui/material/styles";
+import "../styles/HomePage.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Logo from "../assets/logo.png";
+import { styled, alpha } from "@mui/material/styles";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
@@ -21,7 +22,6 @@ import { Navbar, Nav } from "react-bootstrap";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
-import Logo from "../assets/logo.png"; // Ensure the path is correct
 
 const pages = ["Udemy Business", "Udemy'de Eğitim Verin", "Öğrenim İçeriğim"];
 const explanations = [
@@ -29,7 +29,6 @@ const explanations = [
   "Bildiklerinizi fırsata dönüştürün ve tüm dünyada milyonlarca kişiye ulaşın.",
   "Öğrenim İçeriğime Gidin"
 ];
-
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
 
 const Search = styled("div")(({ theme }) => ({
@@ -124,9 +123,7 @@ function HomePage() {
               color: "inherit",
               textDecoration: "none",
               marginLeft: 0
-            }}>
-            LOGO
-          </Typography>
+            }}></Typography>
           <Navbar expand='lg' sx={{ flexGrow: 1 }}>
             <Container>
               <Navbar.Toggle aria-controls='basic-navbar-nav' />
@@ -241,6 +238,7 @@ function HomePage() {
             }}>
             {pages.map((page, index) => (
               <NavDropdown
+                className='me-auto'
                 key={page}
                 title={page}
                 id={`dropdown-${page}`}
@@ -250,10 +248,10 @@ function HomePage() {
                   display: "block",
                   marginRight: "20px"
                 }}>
-                <NavDropdown.Item href='#action/3.1'>
-                  <div className='dropdown-explanation'>
-                    {explanations[index]}
-                  </div>
+                <NavDropdown.Item
+                  className='dropdown-explanation'
+                  href='#action/3.1'>
+                  <div>{explanations[index]}</div>
                 </NavDropdown.Item>
               </NavDropdown>
             ))}
@@ -272,7 +270,7 @@ function HomePage() {
           <Box sx={{ flexGrow: 0, marginLeft: "20px" }}>
             <Tooltip title='Open settings'>
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                <Avatar alt='Remy Sharp' src='/static/images/avatar/2.jpg' />
+                <Avatar alt='Enes Şen' src='/static/images/avatar/2.jpg' />
               </IconButton>
             </Tooltip>
             <Menu
