@@ -43,7 +43,17 @@
 }
 
 /* Next ve prev butonları için stiller */
-.carousel-control-prev,
+.carousel-control-prev {
+  border-radius: 50%; /* Yuvarlak butonlar */
+  display: flex; /* Flexbox kullanarak içeriği ortala */
+  justify-content: center; /* Yatayda ortalama */
+  align-items: center; /* Dikeyde ortalama */
+  position: absolute; /* Butonları konumlandırma */
+  top: 50%; /* Dikeyde ortalamak için %50 */
+  transform: translateY(-50%); /* Butonları tam olarak 
+  ortalamak için */
+  margin-top: 12em;
+}
 .carousel-control-next {
   border-radius: 50%; /* Yuvarlak butonlar */
   display: flex; /* Flexbox kullanarak içeriği ortala */
@@ -53,6 +63,7 @@
   top: 50%; /* Dikeyde ortalamak için %50 */
   transform: translateY(-50%); /* Butonları tam olarak 
   ortalamak için */
+  margin-top: 12em;
 }
 
 /* Next butonunun sağda konumlanması için */

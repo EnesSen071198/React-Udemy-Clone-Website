@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import courses from "../data/LetsLearnData"; // Kurs verileri
-
+import "../styles/CourseDetail.css";
 function CourseDetail() {
   const { id } = useParams(); // URL parametresindeki kurs ID'sini al
   const course = courses.find((course) => course.id === parseInt(id)); // ID'ye göre kursu bul (id'yi sayıya dönüştür)

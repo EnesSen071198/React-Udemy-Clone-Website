@@ -69,7 +69,11 @@ function LetsLearn() {
               <div className='course-grid'>
                 {group.map((course, courseIndex) =>
                   course ? (
-                    <Link to={`/course/${course.id}`} key={course.id}>
+                    <Link
+                      to={`/course/${course.id}`}
+                      key={course.id}
+                      target='_blank'
+                      style={{ textDecoration: "none" }}>
                       <Card className='course-card'>
                         <Card.Img variant='top' src={course.courseImage} />
                         <Card.Body>

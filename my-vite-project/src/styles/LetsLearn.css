@@ -3,6 +3,7 @@
   flex-wrap: wrap;
   gap: 20px;
   justify-content: space-around;
+  text-decoration: none;
 }
 
 .carousel-container {
@@ -19,12 +20,14 @@
   font-weight: 700;
   margin-bottom: 20px;
   text-align: left;
+  text-decoration: none;
 }
 .course-container-title {
   font-size: 1.7rem;
   font-weight: 700;
   margin-bottom: 50px;
   text-align: left;
+  text-decoration: none;
 }
 .carousel-button-icon {
   font-size: 4rem;

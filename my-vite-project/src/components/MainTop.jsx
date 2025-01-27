@@ -7,7 +7,7 @@ import Carousel from "react-bootstrap/Carousel";
 import MainTopImage1 from "../assets/main-top-image-1.png";
 import MainTopImage2 from "../assets/main-top-image-2.png";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa"; // FontAwesome iconları
-
+import "../styles/MainTop.css";
 const MainTop = () => {
   return (
     <div className='main-top-container'>
