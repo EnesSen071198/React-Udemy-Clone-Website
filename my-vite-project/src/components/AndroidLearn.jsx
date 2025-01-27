@@ -1,6 +1,6 @@
 import "../styles/LetsLearn.css";
 import PropTypes from "prop-types";
-import courses from "../data/AiLearnData";
+import courses from "../data/AndroidLearnData";
 import Card from "react-bootstrap/Card";
 import ListGroup from "react-bootstrap/ListGroup";
 import Carousel from "react-bootstrap/Carousel";
@@ -46,7 +46,7 @@ StarRating.propTypes = {
   rating: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired
 };
 
-function AiLearn() {
+function AndroidLearn() {
   const groupedCourses = groupCourses(courses);
 
   return (
@@ -64,7 +64,7 @@ function AiLearn() {
           <Carousel.Item key={index}>
             <div className='carousel-group'>
               <h1 className='course-group-title'>
-                Yapay zeka alanında kendinizi geliştirin
+                Android Geliştiricileri kategorisinde popüler
               </h1>
               <div className='course-grid'>
                 {group.map((course, courseIndex) =>
@@ -106,4 +106,4 @@ function AiLearn() {
   );
 }
 
-export default AiLearn;
+export default AndroidLearn;

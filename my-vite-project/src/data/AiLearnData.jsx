@@ -1,12 +1,12 @@
 const courses = [
   {
     id: 1,
-    courseTitle: "Sıfırdan Uygulamalı SQL Veri Tabanı Dersleri: MySQL & MsSQL",
+    courseTitle: "Learn React",
     courseTeacher: "Enes Şen",
     coursePoint: "4.5",
     coursePrice: "450 ₺",
     courseImage:
-      "https://images.unsplash.com/photo-1604964432806-254d07c11f32?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGV2ZWxvcGVyfGVufDB8fDB8fHww",
+      "https://teknoerbilisim.com/tema/genel/uploads/haberler/yapay_zeka.jpg",
     courseDescription:
       "React is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications, as it is optimal for fetching rapidly changing data that needs to be recorded.",
     courseLearn: [
@@ -32,12 +32,12 @@ const courses = [
   },
   {
     id: 2,
-    courseTitle: "Sıfırdan Yapay Zeka Uzmanlığı: ChatGPT ve 20+ Araç (2025)",
+    courseTitle: "Master JavaScript",
     courseTeacher: "Ali Veli",
     coursePoint: "4.7",
     coursePrice: "500 ₺",
     courseImage:
-      "https://images.unsplash.com/photo-1605379399642-870262d3d051?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZGV2ZWxvcGVyfGVufDB8fDB8fHww",
+      "https://www.ekoturk.com/wp-content/uploads/2024/01/1687260970494.png",
     courseDescription:
       "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam.",
     courseLearn: [
@@ -63,12 +63,12 @@ const courses = [
   },
   {
     id: 3,
-    courseTitle: "SEO Training Masterclass 2025: Beginner To Advanced SEO",
+    courseTitle: "HTML & CSS for Beginners",
     courseTeacher: "Ayşe Yılmaz",
     coursePoint: "4.2",
     coursePrice: "300 ₺",
     courseImage:
-      "https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZGV2ZWxvcGVyfGVufDB8fDB8fHww",
+      "https://yegitek.meb.gov.tr/meb_iys_dosyalar/2024_04/11172533_11114352_mnyt_yapay_zeka.jpg",
     courseDescription: "HTML ve CSS temellerini öğrenin.",
     courseLearn: [
       "HTML Etiketleri: Temel yapı öğeleri",
@@ -93,12 +93,12 @@ const courses = [
   },
   {
     id: 4,
-    courseTitle: "Python Programlama Eğitimi A-Z™ - (71.000+ Öğrenci)",
+    courseTitle: "Node.js and Backend Development",
     courseTeacher: "Mehmet Can",
     coursePoint: "4.8",
     coursePrice: "600 ₺",
     courseImage:
-      "https://plus.unsplash.com/premium_photo-1683309565422-77818a287060?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8ZGV2ZWxvcGVyfGVufDB8fDB8fHww",
+      "https://www.innova.com.tr/medias/Yapay_Zeka_ile_Kisisel_Finans_Yonetimi_Akilli_Butceleme_ve_Yatirim_1.jpg",
     courseDescription:
       "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
     courseLearn: [
@@ -124,12 +124,12 @@ const courses = [
   },
   {
     id: 5,
-    courseTitle: "Python ve Yapay Zekaya Giriş: 101",
+    courseTitle: "Advanced React Native",
     courseTeacher: "Elif Öztürk",
     coursePoint: "4.9",
     coursePrice: "750 ₺",
     courseImage:
-      "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGRldmVsb3BlcnxlbnwwfHwwfHx8MA%3D%3D",
+      "https://mediatrend.mediamarkt.com.tr/wp-content/uploads/2024/07/Yapay-Zeka-Nereye-Gidiyor.webp",
     courseDescription:
       "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
     courseLearn: [
@@ -155,12 +155,12 @@ const courses = [
   },
   {
     id: 6,
-    courseTitle: "The Complete Android 15 Course [Part 1]-Master Java & Kotlin",
+    courseTitle: "Python Programming for Beginners",
     courseTeacher: "Serkan Kara",
     coursePoint: "4.6",
     coursePrice: "400 ₺",
     courseImage:
-      "https://images.unsplash.com/photo-1566837945700-30057527ade0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGRldmVsb3BlcnxlbnwwfHwwfHx8MA%3D%3D",
+      "https://iakademi.com/wp-content/uploads/2023/09/yapay-zeka-nedir-nasil-gelistirilir.webp",
     courseDescription:
       "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
     courseLearn: [
@@ -186,12 +186,12 @@ const courses = [
   },
   {
     id: 7,
-    courseTitle: "Dijital Donanım Tasarımcısı Olma Kursu (FPGA / ASIC)",
+    courseTitle: "Full Stack Development with MERN",
     courseTeacher: "Ece Demir",
     coursePoint: "4.3",
     coursePrice: "550 ₺",
     courseImage:
-      "https://plus.unsplash.com/premium_photo-1682145730713-34bba6d3d14a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGRldmVsb3BlcnxlbnwwfHwwfHx8MA%3D%3D",
+      "https://d3g5ywftkpzr0e.cloudfront.net/wp-content/uploads/2023/07/13220529/Artificial-Intelligence-in-Indonesia-The-current-state-and-its-opportunities-1200x675.jpeg",
     courseDescription:
       "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
     courseLearn: [
@@ -217,12 +217,12 @@ const courses = [
   },
   {
     id: 8,
-    courseTitle: "The Complete Android 14 & Kotlin Development Masterclass",
+    courseTitle: "UI/UX Design Fundamentals",
     courseTeacher: "Zeynep Güngör",
     coursePoint: "4.5",
     coursePrice: "350 ₺",
     courseImage:
-      "https://images.unsplash.com/photo-1603468620905-8de7d86b781e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGRldmVsb3BlcnxlbnwwfHwwfHx8MA%3D%3D",
+      "https://eu-images.contentstack.com/v3/assets/blt69509c9116440be8/bltdab34f69f74c72fe/65380fc40ef0e002921fc072/AI-thinking-Kittipong_Jirasukhanont-alamy.jpg?width=1280&auto=webp&quality=95&format=jpg&disable=upscale",
     courseDescription:
       "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
     courseLearn: [
@@ -248,7 +248,7 @@ const courses = [
   },
   {
     id: 9,
-    courseTitle: "Python Mucizesi - Temelden Uzmanlığa (FULL Paket)",
+    courseTitle: "Data Science with Python",
     courseTeacher: "Ömer Çelik",
     coursePoint: "4.7",
     coursePrice: "650 ₺",
@@ -279,7 +279,7 @@ const courses = [
   },
   {
     id: 10,
-    courseTitle: "Şirket Değerleme ve Finansal Strateji Geliştirme",
+    courseTitle: "Digital Marketing Masterclass",
     courseTeacher: "Hüseyin Arslan",
     coursePoint: "4.4",
     coursePrice: "450 ₺",

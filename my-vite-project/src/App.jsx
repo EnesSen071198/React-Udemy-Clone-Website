@@ -1,11 +1,15 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import CategoriesBar from "./components/CategoriesBar";
 import HomePage from "./pages/HomePage";
-import YazılımGeliştirme from "./pages/YazılımGeliştirme";
+import YazılımGeliştirme from "./category/YazılımGeliştirme";
 import LetsLearn from "./components/LetsLearn";
 import AiLearn from "./components/AiLearn";
 import CourseDetail from "./components/CourseDetail"; // Kurs detayları sayfası
 import Header from "./components/Header";
+import WebLearn from "./components/WebLearn";
+import AndroidLearn from "./components/AndroidLearn";
+import SqlLearn from "./components/SqlLearn";
+import PytonLearn from "./components/PythonLearn";
 
 const App = () => {
   return (
@@ -22,6 +26,10 @@ const App = () => {
       </Routes>
       <LetsLearn />
       <AiLearn />
+      <PytonLearn />
+      <WebLearn />
+      <AndroidLearn />
+      <SqlLearn />
     </div>
   );
 };

@@ -1,12 +1,12 @@
 const courses = [
   {
     id: 1,
-    courseTitle: "Sıfırdan Uygulamalı SQL Veri Tabanı Dersleri: MySQL & MsSQL",
+    courseTitle: "Flutter REST Movie App: Master Flutter REST API Development",
     courseTeacher: "Enes Şen",
     coursePoint: "4.5",
     coursePrice: "450 ₺",
     courseImage:
-      "https://images.unsplash.com/photo-1604964432806-254d07c11f32?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGV2ZWxvcGVyfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1580860749755-f49eb5509d55?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YW5kcm9pZHxlbnwwfHwwfHx8MA%3D%3D",
     courseDescription:
       "React is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications, as it is optimal for fetching rapidly changing data that needs to be recorded.",
     courseLearn: [
@@ -32,12 +32,12 @@ const courses = [
   },
   {
     id: 2,
-    courseTitle: "Sıfırdan Yapay Zeka Uzmanlığı: ChatGPT ve 20+ Araç (2025)",
+    courseTitle: "The Complete Android 14 & Kotlin Development Masterclass",
     courseTeacher: "Ali Veli",
     coursePoint: "4.7",
     coursePrice: "500 ₺",
     courseImage:
-      "https://images.unsplash.com/photo-1605379399642-870262d3d051?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZGV2ZWxvcGVyfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1607252650355-f7fd0460ccdb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YW5kcm9pZHxlbnwwfHwwfHx8MA%3D%3D",
     courseDescription:
       "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam.",
     courseLearn: [
@@ -63,12 +63,12 @@ const courses = [
   },
   {
     id: 3,
-    courseTitle: "SEO Training Masterclass 2025: Beginner To Advanced SEO",
+    courseTitle: "The Complete Android & Kotlin App Development A-Z Bootcamp",
     courseTeacher: "Ayşe Yılmaz",
     coursePoint: "4.2",
     coursePrice: "300 ₺",
     courseImage:
-      "https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZGV2ZWxvcGVyfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1603566234499-85676f87022f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGFuZHJvaWR8ZW58MHx8MHx8fDA%3D",
     courseDescription: "HTML ve CSS temellerini öğrenin.",
     courseLearn: [
       "HTML Etiketleri: Temel yapı öğeleri",
@@ -93,12 +93,12 @@ const courses = [
   },
   {
     id: 4,
-    courseTitle: "Python Programlama Eğitimi A-Z™ - (71.000+ Öğrenci)",
+    courseTitle: "Flutter & Dart - The Complete Guide [2025 Edition]",
     courseTeacher: "Mehmet Can",
     coursePoint: "4.8",
     coursePrice: "600 ₺",
     courseImage:
-      "https://plus.unsplash.com/premium_photo-1683309565422-77818a287060?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8ZGV2ZWxvcGVyfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1521939094609-93aba1af40d7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGFuZHJvaWR8ZW58MHx8MHx8fDA%3D",
     courseDescription:
       "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
     courseLearn: [
@@ -124,12 +124,12 @@ const courses = [
   },
   {
     id: 5,
-    courseTitle: "Python ve Yapay Zekaya Giriş: 101",
+    courseTitle: "The Complete Flutter Development Bootcamp with Dart",
     courseTeacher: "Elif Öztürk",
     coursePoint: "4.9",
     coursePrice: "750 ₺",
     courseImage:
-      "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGRldmVsb3BlcnxlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1596742578443-7682ef5251cd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGFuZHJvaWR8ZW58MHx8MHx8fDA%3D",
     courseDescription:
       "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
     courseLearn: [
@@ -160,7 +160,7 @@ const courses = [
     coursePoint: "4.6",
     coursePrice: "400 ₺",
     courseImage:
-      "https://images.unsplash.com/photo-1566837945700-30057527ade0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGRldmVsb3BlcnxlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1571126770247-9a99e5f7eff7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGFuZHJvaWR8ZW58MHx8MHx8fDA%3D",
     courseDescription:
       "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
     courseLearn: [
@@ -186,12 +186,12 @@ const courses = [
   },
   {
     id: 7,
-    courseTitle: "Dijital Donanım Tasarımcısı Olma Kursu (FPGA / ASIC)",
+    courseTitle: "The Complete Android & Kotlin App Development A-Z Bootcamp",
     courseTeacher: "Ece Demir",
     coursePoint: "4.3",
     coursePrice: "550 ₺",
     courseImage:
-      "https://plus.unsplash.com/premium_photo-1682145730713-34bba6d3d14a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGRldmVsb3BlcnxlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1523474438810-b04a2480633c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGFuZHJvaWR8ZW58MHx8MHx8fDA%3D",
     courseDescription:
       "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
     courseLearn: [
@@ -217,12 +217,12 @@ const courses = [
   },
   {
     id: 8,
-    courseTitle: "The Complete Android 14 & Kotlin Development Masterclass",
+    courseTitle: "Android App Development with Kotlin | Beginner to Advanced",
     courseTeacher: "Zeynep Güngör",
     coursePoint: "4.5",
     coursePrice: "350 ₺",
     courseImage:
-      "https://images.unsplash.com/photo-1603468620905-8de7d86b781e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGRldmVsb3BlcnxlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1598965402089-897ce52e8355?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGFuZHJvaWR8ZW58MHx8MHx8fDA%3D",
     courseDescription:
       "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
     courseLearn: [
@@ -248,12 +248,12 @@ const courses = [
   },
   {
     id: 9,
-    courseTitle: "Python Mucizesi - Temelden Uzmanlığa (FULL Paket)",
+    courseTitle: "Flutter UI Bootcamp | Build Beautiful Apps using Flutter",
     courseTeacher: "Ömer Çelik",
     coursePoint: "4.7",
     coursePrice: "650 ₺",
     courseImage:
-      "https://norwegianscitechnews.com/wp-content/uploads/2024/08/rep_ai_inga_hig_res_bruk.jpg",
+      "https://plus.unsplash.com/premium_photo-1663100078216-2ff58616cf54?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8YW5kcm9pZHxlbnwwfHwwfHx8MA%3D%3D",
     courseDescription:
       "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
     courseLearn: [
@@ -279,12 +279,12 @@ const courses = [
   },
   {
     id: 10,
-    courseTitle: "Şirket Değerleme ve Finansal Strateji Geliştirme",
+    courseTitle: "Android Jetpack Compose: The Comprehensive Bootcamp",
     courseTeacher: "Hüseyin Arslan",
     coursePoint: "4.4",
     coursePrice: "450 ₺",
     courseImage:
-      "https://omghcontent.affino.com/AcuCustom/Sitename/DAM/235/SINGLE_USE_AI_BING.jpg",
+      "https://images.unsplash.com/photo-1621592867256-8ef277cfb72b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGFuZHJvaWR8ZW58MHx8MHx8fDA%3D",
     courseDescription:
       "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
     courseLearn: [
@@ -310,23 +310,23 @@ const courses = [
   },
   {
     id: 11,
-    courseTitle: "Machine Learning Fundamentals",
+    courseTitle: "Dart & Flutter | The Complete Flutter Development Course",
     courseTeacher: "Burcu Yıldız",
     coursePoint: "4.8",
     coursePrice: "700 ₺",
     courseImage:
-      "https://www.chitkara.edu.in/blogs/wp-content/uploads/2024/07/AI-Education.jpg",
+      "https://plus.unsplash.com/premium_photo-1690297853326-e127726588ac?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGFuZHJvaWR8ZW58MHx8MHx8fDA%3D",
     courseDescription:
       "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi."
   },
   {
     id: 12,
-    courseTitle: "Electronics and Arduino Programming",
+    courseTitle: "E-commerce App & Admin Website Using Flutter & Supabase",
     courseTeacher: "Canan Aydın",
     coursePoint: "4.6",
     coursePrice: "550 ₺",
     courseImage:
-      "https://plus.unsplash.com/premium_vector-1726125166148-e9e7f4039be0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGNoYXQlMjBib3R8ZW58MHx8MHx8fDA%3D",
+      "https://plus.unsplash.com/premium_photo-1682023585957-f191203ab239?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YW5kcm9pZHxlbnwwfHwwfHx8MA%3D%3D",
     courseDescription:
       "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi."
   }
