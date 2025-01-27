@@ -3,20 +3,21 @@ import CategoriesBar from "./components/CategoriesBar";
 import HomePage from "./pages/HomePage";
 import MainTop from "./pages/MainTop";
 import YazılımGeliştirme from "./pages/YazılımGeliştirme";
+import LetsLearn from "./components/LetsLearn";
 
 const App = () => {
   return (
     <Router>
       <Routes>
-        {/* Use Routes instead of Switch in v6 */}
         <Route path='/' element={<HomePage />} />
         <Route
           path='/category/Yazılım Geliştirme'
           element={<YazılımGeliştirme />}
         />
-      </Routes>{" "}
-      <CategoriesBar /> {/* Place this here if you want it on all pages */}
-      <MainTop /> {/* Place this here if you want it on all pages */}
+      </Routes>
+      <CategoriesBar />
+      <MainTop />
+      <LetsLearn />
     </Router>
   );
 };
