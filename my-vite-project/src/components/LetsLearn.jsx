@@ -1,9 +1,10 @@
 import "../styles/LetsLearn.css";
-import PropTypes from "prop-types"; // Prop-types'ı import ediyoruz
+import PropTypes from "prop-types";
 import courses from "../data/LetsLearnData";
 import Card from "react-bootstrap/Card";
 import ListGroup from "react-bootstrap/ListGroup";
 import Carousel from "react-bootstrap/Carousel";
+import { Link } from "react-router-dom";
 import { IoStarSharp, IoStarOutline } from "react-icons/io5";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
@@ -41,7 +42,6 @@ const StarRating = ({ rating }) => {
   );
 };
 
-// PropTypes tanımlaması
 StarRating.propTypes = {
   rating: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired
 };
@@ -64,26 +64,28 @@ function LetsLearn() {
           <Carousel.Item key={index}>
             <div className='carousel-group'>
               <h1 className='course-group-title'>
-                Kaydolmak isteyebileceğiniz diğer kurslar
+                Sizin için önerilen kurslar
               </h1>
               <div className='course-grid'>
                 {group.map((course, courseIndex) =>
                   course ? (
-                    <Card key={course.id} className='course-card'>
-                      <Card.Img variant='top' src={course.courseImage} />
-                      <Card.Body>
-                        <Card.Title>{course.courseTitle}</Card.Title>
-                        <Card.Text>{course.courseTeacher}</Card.Text>
-                      </Card.Body>
-                      <ListGroup className='list-group-flush'>
-                        <ListGroup.Item className='list-group-flush-item'>
-                          <StarRating rating={course.coursePoint} />
-                        </ListGroup.Item>
-                        <ListGroup.Item className='list-group-flush-item'>
-                          <strong>Price:</strong> {course.coursePrice}
-                        </ListGroup.Item>
-                      </ListGroup>
-                    </Card>
+                    <Link to={`/course/${course.id}`} key={course.id}>
+                      <Card className='course-card'>
+                        <Card.Img variant='top' src={course.courseImage} />
+                        <Card.Body>
+                          <Card.Title>{course.courseTitle}</Card.Title>
+                          <Card.Text>{course.courseTeacher}</Card.Text>
+                        </Card.Body>
+                        <ListGroup className='list-group-flush'>
+                          <ListGroup.Item className='list-group-flush-item'>
+                            <StarRating rating={course.coursePoint} />
+                          </ListGroup.Item>
+                          <ListGroup.Item className='list-group-flush-item'>
+                            <strong>Price:</strong> {course.coursePrice}
+                          </ListGroup.Item>
+                        </ListGroup>
+                      </Card>
+                    </Link>
                   ) : (
                     <div
                       key={`empty-${index}-${courseIndex}`}

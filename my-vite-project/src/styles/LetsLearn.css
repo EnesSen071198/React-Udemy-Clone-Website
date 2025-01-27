@@ -20,7 +20,12 @@
   margin-bottom: 20px;
   text-align: left;
 }
-
+.course-container-title {
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin-bottom: 50px;
+  text-align: left;
+}
 .carousel-button-icon {
   font-size: 4rem;
   color: #000000;
@@ -49,6 +54,9 @@
 }
 .list-group-flush-item {
   border: none;
+}
+.empty-card {
+  visibility: hidden;
 }
 .star-rating {
   display: inline-flex;
